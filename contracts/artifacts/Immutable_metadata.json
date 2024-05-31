@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_myUint",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "MY_ADDRESS",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "MY_UINT",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Immutable.sol": "Immutable"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Immutable.sol": {
+			"keccak256": "0x01270655f06bc1965fd38f1a28dd1ecb4cd5899283ca705495e08d3de359ef21",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://401700d4de28ad9b3b0ec510033cc5f58223d1b8106405a2d102ad4987cd4cb4",
+				"dweb:/ipfs/QmXLsn5DwRVUNxCjtHEKCH1pQeCk1niuURCSsiKgkCh6Ys"
+			]
+		}
+	},
+	"version": 1
+}
