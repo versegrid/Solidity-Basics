@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "forever",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "i",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Gas&GasFee.sol": "Gas"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Gas&GasFee.sol": {
+			"keccak256": "0xc4adb1e6be2a2c8967093256ba1ec256346f0d1fdfef250a7468a1c806d15186",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2dcba2a545252adfaf58c85cbd003b9952ce3ae2cf1c1e01784468f243563ade",
+				"dweb:/ipfs/QmfJxVkJgFAcx8RG4prujs6GBaDccgcQ1xHNRvdrd5o7G2"
+			]
+		}
+	},
+	"version": 1
+}
