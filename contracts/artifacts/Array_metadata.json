@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.24+commit.e11b9ed9"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -167,9 +167,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Array.sol": "Array"
+			"contracts/13-Array.sol": "Array"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -181,7 +181,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Array.sol": {
+		"contracts/13-Array.sol": {
 			"keccak256": "0x31c7c99648f45277f5fdf3b266e021fc4936798b79e95f20d6ae475f9b86300e",
 			"license": "MIT",
 			"urls": [

@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.23+commit.f704f362"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -59,9 +59,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/FirstApp.sol": "Counter"
+			"contracts/2-FirstApp.sol": "Counter"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -73,12 +73,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/FirstApp.sol": {
-			"keccak256": "0x88387bee77be172231ddd2713f7577094156ecdffc5aadc76b726bfb018bdd88",
+		"contracts/2-FirstApp.sol": {
+			"keccak256": "0x81ee510a87f092bbcbfbc30f1df570343f7b8945823a23e793bf119d11e47e90",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5f1b63a605026ae6ac108733b64393ea93108a37ecfb374395ab5cf5ad877939",
-				"dweb:/ipfs/Qmd37mAr3q2oVpiztCxvzFBvxszcFCGdveRs88hRbpvJrn"
+				"bzz-raw://586a61ce76d8fcc5ddd99b05431c73f515bddcac94e3a6729dc3d045c494cc49",
+				"dweb:/ipfs/QmQBA2bXJvENg7qQXPuxnLa3ch7w9nfWUEyUwLx7JWLcgj"
 			]
 		}
 	},

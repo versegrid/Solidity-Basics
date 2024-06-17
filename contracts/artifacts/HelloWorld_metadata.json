@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.23+commit.f704f362"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -32,9 +32,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Helloworld.sol": "HelloWorld"
+			"contracts/1-Helloworld.sol": "HelloWorld"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -46,7 +46,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Helloworld.sol": {
+		"contracts/1-Helloworld.sol": {
 			"keccak256": "0x930df63ef3b69ab0c39770c6fbb4119bcfe24a2e7c4a0175db1d01e00371664e",
 			"license": "MIT",
 			"urls": [

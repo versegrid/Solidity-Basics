@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.24+commit.e11b9ed9"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -58,9 +58,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ArrayRemoving.sol": "ArrayRemoveByShifting"
+			"contracts/13.1-ArrayRemoving.sol": "ArrayRemoveByShifting"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -72,7 +72,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ArrayRemoving.sol": {
+		"contracts/13.1-ArrayRemoving.sol": {
 			"keccak256": "0x7a165828f84b722fe7f34b552c6bed6d1a64a7581406345cd989e6005e8365d3",
 			"license": "MIT",
 			"urls": [

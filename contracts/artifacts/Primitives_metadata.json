@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.23+commit.f704f362"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -227,9 +227,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/DataTypes.sol": "Primitives"
+			"contracts/3-DataTypes.sol": "Primitives"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -241,7 +241,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/DataTypes.sol": {
+		"contracts/3-DataTypes.sol": {
 			"keccak256": "0x75617b5bc24f8c8e5f3c6a283212bb5772e1292465d51e897ea41540bfe8b212",
 			"license": "MIT",
 			"urls": [

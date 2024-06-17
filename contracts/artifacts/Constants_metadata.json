@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.24+commit.e11b9ed9"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -45,9 +45,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Constants.sol": "Constants"
+			"contracts/5-Constants.sol": "Constants"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -59,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Constants.sol": {
-			"keccak256": "0xd227c576e801eac1fdad3bb73561546bb15a91192a4589327a84ff345486eb94",
+		"contracts/5-Constants.sol": {
+			"keccak256": "0x00985131fee32a5086efbb4cd2b0e928d85afb8014f4712fb5e92f56e5a83b42",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://86919c54a4ab4ef1ddff42e5eead98d2e0dcd9599ec2af009ff67cc307459f46",
-				"dweb:/ipfs/QmR8PoBH5vuJMN5H3YUgwXpkeKk7CwGsGZW2m2Zkwk5tE4"
+				"bzz-raw://3d916374cba67e1d2544122dbb9c06324cc13a1167931c23cc22b1b86e464f8f",
+				"dweb:/ipfs/QmXK9XGgjEf4mKLXt5dZLk9T42dKHbBPt4cPvaZQtH1oM8"
 			]
 		}
 	},

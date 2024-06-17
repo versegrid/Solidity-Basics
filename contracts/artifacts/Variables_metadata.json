@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.23+commit.f704f362"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -68,9 +68,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Variables.sol": "Variables"
+			"contracts/4-Variables.sol": "Variables"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -82,7 +82,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Variables.sol": {
+		"contracts/4-Variables.sol": {
 			"keccak256": "0xa062e93d2d848751bebbc5b4aae28ad8bed096ed19465482eb8a330bab460220",
 			"license": "MIT",
 			"urls": [

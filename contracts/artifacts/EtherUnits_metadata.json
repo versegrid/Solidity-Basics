@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.24+commit.e11b9ed9"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -97,9 +97,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Ether & Wei.sol": "EtherUnits"
+			"contracts/8-Ether & Wei.sol": "EtherUnits"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -111,7 +111,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Ether & Wei.sol": {
+		"contracts/8-Ether & Wei.sol": {
 			"keccak256": "0xf3ad1f8c8869e4713a0eae679dea258c4e0558dc87403ba003fea79a6e82fe6f",
 			"license": "MIT",
 			"urls": [

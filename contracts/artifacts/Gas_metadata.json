@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.24+commit.e11b9ed9"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -39,9 +39,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Gas&GasFee.sol": "Gas"
+			"contracts/9-Gas&GasFee.sol": "Gas"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -53,12 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Gas&GasFee.sol": {
-			"keccak256": "0xc4adb1e6be2a2c8967093256ba1ec256346f0d1fdfef250a7468a1c806d15186",
+		"contracts/9-Gas&GasFee.sol": {
+			"keccak256": "0x4cff8d78cd69c25a808341631ccf5ad765f1590dafb233c0ef1894cb957d057f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2dcba2a545252adfaf58c85cbd003b9952ce3ae2cf1c1e01784468f243563ade",
-				"dweb:/ipfs/QmfJxVkJgFAcx8RG4prujs6GBaDccgcQ1xHNRvdrd5o7G2"
+				"bzz-raw://8d9ea410f3f4bcff9201716deebb4a75d8f12ac74323841482b750f7a5085ac3",
+				"dweb:/ipfs/QmfUuwAnLSCcJr6X4mwnHovmuymN4JaQwMsRHiHAxVrf8P"
 			]
 		}
 	},

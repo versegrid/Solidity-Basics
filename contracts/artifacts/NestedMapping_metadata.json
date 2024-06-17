@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.24+commit.e11b9ed9"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -108,9 +108,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Mapping.sol": "NestedMapping"
+			"contracts/12-Mapping.sol": "NestedMapping"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -122,7 +122,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Mapping.sol": {
+		"contracts/12-Mapping.sol": {
 			"keccak256": "0x7ec67d7ebafc558648701b3deb5a508fa7988692afab224bfa3baf9849d85365",
 			"license": "MIT",
 			"urls": [

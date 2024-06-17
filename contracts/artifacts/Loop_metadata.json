@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.24+commit.e11b9ed9"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -26,9 +26,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/WhileLoop.sol": "Loop"
+			"contracts/11-WhileLoop.sol": "Loop"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -40,7 +40,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/WhileLoop.sol": {
+		"contracts/11-WhileLoop.sol": {
 			"keccak256": "0xb6d55cc959e92b317be341d1ec9ab23a732baa9e045b96030c92ec9b001eea09",
 			"license": "MIT",
 			"urls": [

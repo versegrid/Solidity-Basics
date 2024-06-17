@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.24+commit.e11b9ed9"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -57,9 +57,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/If-Else.sol": "IfElse"
+			"contracts/10-If-Else.sol": "IfElse"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -71,7 +71,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/If-Else.sol": {
+		"contracts/10-If-Else.sol": {
 			"keccak256": "0x58d0beb445b280c59e37e9c3062ec81670ba31f0473e7685b95f77359042d13f",
 			"license": "MIT",
 			"urls": [
