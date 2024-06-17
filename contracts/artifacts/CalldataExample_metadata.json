@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "recipient",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Storage.Memory.Calldata.sol": "CalldataExample"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Storage.Memory.Calldata.sol": {
+			"keccak256": "0xd953dedbbe363029a400f30b7c2ca5b58e0af096ef501c6bc6fee4a460ece8c5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7eae4a82f90eb2dff9464a82aed791d1273b7c385e3701509648290f87ab6f69",
+				"dweb:/ipfs/Qmdj31RNuCK4gk8YJ5k1uFkqqJWqenbTBEfbVR4AsyAVDa"
+			]
+		}
+	},
+	"version": 1
+}
