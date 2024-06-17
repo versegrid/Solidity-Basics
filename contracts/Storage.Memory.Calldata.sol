@@ -62,9 +62,12 @@ contract DataLocationsWithStruct {
   }
   mapping(uint256 => Person) public people; // Mapping for storing Person structs
 
+    event storedPerson(string name, uint256 age);
+
   // Function to store a person in storage
-  function storePerson(uint256 id, string memory name, uint256 age) public {
-    people[id] = Person(name, age); // Creating and storing Person struct in storage
+  function storePerson(uint256 id, string memory _name, uint256 _age) public {
+    people[id] = Person(_name, _age); // Creating and storing Person struct in storage
+    emit storedPerson(_name, _age);
   }
 
   // Memory (temporary)
