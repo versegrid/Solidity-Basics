@@ -1,0 +1,69 @@
+{
+	"id": "909c0bfccf6b71edcf5fd8dfd481e405",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.26",
+	"solcLongVersion": "0.8.26+commit.8a97fa7a",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/TransientStorage.sol": {
+				"content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.24;\n\n// // Make sure EVM version and VM set to Cancun\n\n// // Storage - data is stored on the blockchain\n// // Memory - data is cleared out after a function call\n// // Transient storage - data is cleared out after a transaction\n// interface ITest {\n//     function val() external view returns (uint256);\n//     function test() external;\n// }\n\n// contract Callback {\n//     uint256 public val;\n\n//     fallback() external {\n//         val = ITest(msg.sender).val();\n//     }\n\n//     function test(address target) external {\n//         ITest(target).test();\n//     }\n// }\n\n// contract TestStorage {\n//     uint256 public val;\n\n//     function test() public {\n//         val = 123;\n//         bytes memory b = \"\";\n//         msg.sender.call(b);\n//     }\n// }\n\n// contract TestTransientStorage {\n//     bytes32 constant SLOT = 0;\n\n//     function test() public {\n//         assembly {\n//             tstore(SLOT, 321)\n//         }\n//         bytes memory b = \"\";\n//         msg.sender.call(b);\n//     }\n\n//     function val() public view returns (uint256 v) {\n//         assembly {\n//             v := tload(SLOT)\n//         }\n//     }\n// }\n\n// contract ReentrancyGuard {\n//     bool private locked;\n\n//     modifier lock() {\n//         require(!locked);\n//         locked = true;\n//         _;\n//         locked = false;\n//     }\n\n//     // 35313 gas\n//     function test() public lock {\n//         // Ignore call error\n//         bytes memory b = \"\";\n//         msg.sender.call(b);\n//     }\n// }\n\n// contract ReentrancyGuardTransient {\n//     bytes32 constant SLOT = 0;\n\n//     modifier lock() {\n//         assembly {\n//             if tload(SLOT) { revert(0, 0) }\n//             tstore(SLOT, 1)\n//         }\n//         _;\n//         assembly {\n//             tstore(SLOT, 0)\n//         }\n//     }\n\n//     // 21887 gas\n//     function test() external lock {\n//         // Ignore call error\n//         bytes memory b = \"\";\n//         msg.sender.call(b);\n//     }\n// }"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"sources": {
+			"contracts/TransientStorage.sol": {
+				"ast": {
+					"absolutePath": "contracts/TransientStorage.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".24"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "32:24:0"
+						}
+					],
+					"src": "32:1984:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
