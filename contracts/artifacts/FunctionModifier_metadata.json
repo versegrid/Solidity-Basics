@@ -89,7 +89,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/modifier.sol": "FunctionModifier"
+			"contracts/19-modifier.sol": "FunctionModifier"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -103,7 +103,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/modifier.sol": {
+		"contracts/19-modifier.sol": {
 			"keccak256": "0xf149f74cc511bf9ca6ee9e132430e86777e79292a1725368b40d108e13992323",
 			"license": "MIT",
 			"urls": [
