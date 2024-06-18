@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "MAX_UINT",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/19-Error/ErrorHandling.sol": "Account"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/19-Error/ErrorHandling.sol": {
+			"keccak256": "0x0c0116f015e0b3c0fa7dfda6a4a42c3641c0988f7d1ab26bd1d617a9117e60f7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e9cb9f72d127e409a4d5b43d8f9ef88a341f7d4e49d2b79ee8f77f001a75a6d2",
+				"dweb:/ipfs/Qmd9wkW7k66a479JZECKWEHyhAiYV6kuTtNLfaGNryCCJc"
+			]
+		}
+	},
+	"version": 1
+}

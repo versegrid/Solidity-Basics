@@ -1,0 +1,149 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "balance",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "withdrawAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "InsufficientBalance",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "num",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testAssert",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_withdrawAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "testCustomError",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_i",
+						"type": "uint256"
+					}
+				],
+				"name": "testRequire",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_i",
+						"type": "uint256"
+					}
+				],
+				"name": "testRevert",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/19-Error/Error.sol": "Error"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/19-Error/Error.sol": {
+			"keccak256": "0x6238f57694d78d79a145d77ee98b14f5dd5835060b0a61cdba0af5bdc429e5d1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://83df566e4ba8c5ceb012ec8b21d16038b6fca5130507f36403133f37a04cd759",
+				"dweb:/ipfs/QmcpadGZDVcMoyZX8JEPo5TSfiZtfDb9zj3SeXnkQFczc9"
+			]
+		}
+	},
+	"version": 1
+}
